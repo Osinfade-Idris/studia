@@ -1,0 +1,66 @@
+.alert-div {
+    width: 380px;
+    min-height: 150px;
+    background: #FFF;
+    margin: 60px auto;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: #7f8c8d;
+}
+
+.alert-div span {
+    font-size: 25px;
+    color: #0BA8F0;
+    line-height: 40px;
+}
+
+.alert-div .avater {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: #bdc3c7 3px solid;
+    margin: auto;
+    overflow: hidden;
+    background: #FFF;
+    margin-top: 40px
+}
+
+.alert-div .avater img {
+    width: 100%;
+}
+
+.alert-div .action-btn {
+    border: none;
+    padding: 15px;
+    width: 70%;
+    min-width: 150px;
+    background: #0BA8F0;
+    border: #0BA8F0 2px solid;
+    color: #FFF;
+    border-radius: 50px;
+    font-family: body-font;
+    font-size: 15px;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-in 0.2s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+}
+
+.alert-div .action-btn:hover {
+    background: #FFF;
+    color: #0BA8F0;
+    border: #0BA8F0 2px solid;
+}
+
+@media all and (max-width:420px) {
+    .alert-div {
+        width: 80%;
+        padding: 20px 3% 20 3%;
+    }
+    .alert-div span {
+        font-size: 18px;
+    }
+}

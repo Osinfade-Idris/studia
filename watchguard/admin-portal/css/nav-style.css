@@ -1,0 +1,407 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.nav-div {
+    float: left;
+    margin-left: 25px;
+}
+
+.nav-div li {
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    margin-right: 3px;
+    color: #FFF;
+    background-color: #000;
+    font-size: 13px;
+    width: 110px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    border-radius: 3px;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+    cursor: pointer;
+    border-bottom: rgba(154, 44, 133, 0) 1px solid;
+}
+
+.nav-div li:hover {
+    background: rgba(255, 255, 255, .3);
+}
+
+.nav-div .active-li {
+    background: rgba(255, 255, 255, .3);
+}
+
+.menu-div {
+    display: none;
+    margin: 10px;
+    margin-left: 0px;
+    padding-top: 5px;
+    width: 40px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+    background: rgba(255, 255, 255, .2);
+    color: #FFF;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+}
+
+.menu-div:hover {
+    opacity: .7;
+}
+
+@media all and (max-width:905px) {
+    .menu-div {
+        display: block;
+    }
+}
+
+@media all and (max-width:740px) {
+    .header-div-in .nav-div {
+        display: none;
+    }
+}
+
+.notification {
+    min-width: 40px;
+    height: 32.5px;
+    padding-top: 7.5px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    background: rgba(255, 255, 255, .2);
+    margin-top: 10px;
+    border-radius: 3px;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+    cursor: pointer;
+}
+
+.notification:hover {
+    background: #424242;
+    color: #FCFCFC;
+}
+
+.notification div {
+    width: 15px;
+    height: 15px;
+    background: #E1201F;
+    border-radius: 100%;
+    float: right;
+    margin-right: 5px;
+    margin-left: -10px;
+    color: #FCFCFC;
+    line-height: 15px;
+    font-size: 8px;
+    text-align: center;
+}
+
+.header-profile-pix-div {
+    margin: 10px;
+    width: 37px;
+    height: 37px;
+    overflow: hidden;
+    border-radius: 3px;
+    float: right;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+    cursor: pointer;
+    border: rgba(255, 255, 255, 1) 1px solid;
+    background: #FCFCFC;
+}
+
+.header-profile-pix-div:hover {
+    border: rgba(255, 255, 255, 1) 1px solid;
+}
+
+.header-profile-pix-div img {
+    width: 100%;
+}
+
+.toggle-profile-div {
+    top: 60px;
+    padding: 10px;
+    width: 290px;
+    background: #F4F4F4;
+    height: auto;
+    position: absolute;
+    right: 1%;
+    display: none;
+    border-radius: 3px;
+}
+
+.toggle-profile-div:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent transparent #F4F4F4 transparent;
+    right: 20px;
+    top: -20px;
+}
+
+.toggle-profile-pix-div {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: #ecf0f1 2px solid;
+    border-radius: 3px;
+    float: left;
+    background: #FCFCFC;
+}
+
+.toggle-profile-pix-div img {
+    width: 100%;
+}
+
+.toggle-profile-name {
+    margin-top: 10px;
+    width: 200px;
+    height: 18px;
+    font-size: 16px;
+    float: right;
+    line-height: 18px;
+    overflow: hidden;
+    color: #04091E;
+}
+
+.toggle-profile-others {
+    margin-top: 2px;
+    width: 200px;
+    height: 30px;
+    font-size: 12px;
+    float: right;
+    line-height: 16px;
+    overflow: hidden;
+    color: #7f8c8d;
+}
+
+.logout-btn {
+    min-width: 90px;
+    margin-top: 7px;
+    margin-right: 5px;
+    padding: 10px;
+    background: #0BA8F0;
+    border: none;
+    color: #ecf0f1;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+    cursor: pointer;
+    float: right;
+}
+
+.logout-btn:hover {
+    opacity: .8;
+}
+
+.side-back-div {
+    width: 220px;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    z-index: 15;
+    background: #F7F7F7;
+    text-align: center;
+}
+
+.side-back-div .link-div {
+    padding-bottom: 10px;
+    width: 90%;
+    min-height: 135px;
+    background: #FFF;
+    border-radius: 3px;
+    margin: 70px auto;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.side-back-div .link-div .pix-div {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: -40px;
+    overflow: hidden;
+    background: #FFF;
+    border: #CCC 1px solid;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.side-back-div .link-div .pix-div img {
+    width: 100%;
+}
+
+.side-back-div .link-div .name {
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    width: 80%;
+    color: #0BA8F0;
+    text-align: center;
+}
+
+.side-back-div .link-div .div {
+    width: 100%;
+    font-size: 11px;
+    margin: 5px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.side-back-div .link-div span {
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+}
+
+.side-back-div .link-div span:hover {
+    color: #F00;
+}
+
+.side-back-div .link-div .btn {
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    background: #0BA8F0;
+    color: #FFF;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+}
+
+.side-back-div .link-div .btn:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+#side-link-back-div {
+    padding: 20px 5% 20px 5%;
+    width: 80%;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+.side-back-div .link-div li {
+    padding: 10px 0px 10px 4%;
+    min-height: 20px;
+    line-height: 20px;
+    color: #999;
+    border-bottom: #CCC 1px solid;
+    text-align: left;
+    width: 96%;
+    cursor: pointer;
+    font-size: 13px;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+    list-style: none;
+}
+
+.side-back-div .link-div li:hover {
+    background: #F7F7F7;
+    border-bottom: #0BA8F0 1px solid;
+    color: #0BA8F0;
+}
+
+.side-back-div .link-div .active-li {
+    background: #F7F7F7;
+    border-bottom: #0BA8F0 1px solid;
+    color: #0BA8F0;
+}
+
+.side-back-div .link-div li i,
+.link-div .active-li i {
+    color: #0BA8F0;
+    font-size: 16px;
+    width: 30px;
+}
+
+.side-back-div .link-div li .sub-li {
+    width: 90%;
+    margin-left: 10%;
+    display: none;
+    margin-top: 10px;
+}
+
+.side-back-div .link-div li .sub-li .li {
+    padding: 10px 0px 10px 10px;
+    min-height: 20px;
+    line-height: 20px;
+    color: #999;
+    text-align: left;
+    cursor: pointer;
+    font-size: 11px;
+    -moz-transition: all 0.2s ease-in 02s;
+    transition: all 0.2s ease-in 0.2s;
+    -webkit-transition: all 0.2s ease-in 0.2s;
+    -ms-transition: all 0.2s ease-in 0.2s;
+    -o-transition: all 0.2s ease-in 0.2s;
+}
+
+.side-back-div .link-div li .sub-li .li:hover {
+    background: rgba(255, 255, 255, .7);
+}
+
+#side-link-back-div #expand {
+    float: right;
+    margin-top: 3px;
+    color: #F90;
+    margin-right: -20px;
+}
+
+@media all and (max-width:905px) {
+    .side-back-div {
+        left: -250px;
+    }
+}
+
+.side-nav-bg-div {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, .4);
+    z-index: 12;
+    left: -100%;
+}
+
+.side-nav-bg-div .side-nav-bg-div-in {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
