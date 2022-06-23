@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="home-page" style="padding-top:30px">  
+
     <div class="logo-div"><img src="all-images/images/studia_bg2.svg" alt="STUDIA logo"/></div>
 	
 	<div class="logo-text">
@@ -19,7 +19,7 @@
 
 	<a href="level.php"><div class="btn-class">GET STARTED</div></a>
 	
-</div>
+
 
 
 </body>

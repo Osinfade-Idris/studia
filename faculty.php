@@ -12,12 +12,11 @@ $level_id = $_GET['level_id'];
 </head>
 <body>
 
-<div class="home-page" style="margin-top:10%">  
-    <div class="header-div"></div>
+
 
 	<a href="level.php"><div class="left-arrow"><img src="all-images/images/vector.svg" alt="left arrow"/></div></a>
 
-	<div class="first-header">FACULTY</div>
+	<div class="first-header">SELECT FACULTY</div>
 
 
 	<?php
@@ -45,7 +44,7 @@ $level_id = $_GET['level_id'];
 	</a>
 
 	<?php } ?>
-</div>
+
 
 
 </body>

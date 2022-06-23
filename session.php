@@ -20,8 +20,7 @@ $fl_id = $_GET['fl_id'];
 </head>
 <body>
 
-<div class="home-page" style="margin-top:10%">  
-    <div class="header-div"></div>
+
 
 	<a href="programmes.php?level_id=<?php echo $level_id; ?>&faculty_id=<?php echo $faculty_id; ?>"><div class="left-arrow"><img src="all-images/images/vector.svg" alt="left arrow"/></div></a>
 
@@ -56,7 +55,7 @@ $fl_id = $_GET['fl_id'];
 	</a>
 
 	<?php } ?>
-</div>
+
 
 
 </body>

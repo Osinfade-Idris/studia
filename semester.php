@@ -19,12 +19,10 @@ $session_id = $_GET['session_id'];
 </head>
 <body>
 
-<div class="home-page" style="margin-top:10%">  
-    <div class="header-div"></div>
 
 	<a href="session.php?programme_id=<?php echo $programme_id; ?>&fl_id=<?php echo $fl_id; ?>&level_id=<?php echo $level_id; ?>&faculty_id=<?php echo $faculty_id; ?>"><div class="left-arrow"><img src="all-images/images/vector.svg" alt="left arrow"/></div></a>
 
-	<div class="first-header">SEMESTER</div>
+	<div class="first-header">SELECT SEMESTER</div>
 
 	<?php
        $programquery=mysqli_query($conn,"SELECT * FROM `program` WHERE `fl_id`='$fl_id' AND programme_id='$programme_id' AND level_id='$level_id' AND `session_id`='$session_id'")or die (mysqli_error($conn));
@@ -58,7 +56,6 @@ $session_id = $_GET['session_id'];
 
 	<?php } ?>
 
-</div>
 
 
 </body>

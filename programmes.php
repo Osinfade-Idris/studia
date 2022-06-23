@@ -19,14 +19,12 @@ $fl_id = $fl_sel['fl_id'];
 </head>
 <body>
 
-<div class="home-page" style="margin-top:10%">  
-    <div class="header-div"></div>
 
 	<a href="faculty.php?level_id=<?php echo $level_id; ?>">
 		<div class="left-arrow"><img src="all-images/images/vector.svg" alt="left arrow"/></div>
 	</a>
 
-	<div class="first-header">PROGRAMMES</div>
+	<div class="first-header">SELECT PROGRAMMES</div>
 
 	<?php
         $programquery=mysqli_query($conn,"SELECT DISTINCT programme_id FROM `program` WHERE fl_id='$fl_id' AND level_id='$level_id'")or die (mysqli_error($conn));
@@ -42,7 +40,7 @@ $fl_id = $fl_sel['fl_id'];
     ?>
 
 	<a href="session.php?programme_id=<?php echo $programme_id; ?>&fl_id=<?php echo $fl_id; ?>&level_id=<?php echo $level_id; ?>&faculty_id=<?php echo $faculty_id; ?>">
-	<div class="level-col">
+	<div class="level-col2">
 		<div class="level-col-text3">
 			<?php echo $programme_name ?>
 		</div>
@@ -53,7 +51,6 @@ $fl_id = $fl_sel['fl_id'];
 	<?php } ?>
 	
 	
-</div>
 
 
 </body>

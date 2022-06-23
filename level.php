@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<div class="home-page" style="margin-top:10%">  
-    <div class="header-div"></div>
+
+
 
 	<a href="/studia"><div class="left-arrow"><img src="all-images/images/vector.svg" alt="left arrow"/></div></a>
 
@@ -40,7 +40,7 @@
 
 	
 	
-</div>
+
 
 
 </body>
