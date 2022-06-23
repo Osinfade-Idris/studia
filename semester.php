@@ -40,7 +40,7 @@ $session_id = $_GET['session_id'];
 		$semester_name = $semester_sel['semester_name'];
     ?>
 
-	<a href="pq/<?php echo $question; ?>">
+	<a href="pq/<?php echo $question; ?>" target="_blank">
 	
 	<div class="level-col">
 	
